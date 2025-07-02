@@ -1,0 +1,15 @@
+[package]
+name = "Fibonacci_sequence"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+colored = "3.0.0"
+winapi = { version = "0.3", features = ["consoleapi", "handleapi", "wincon", "processenv", "winbase"] }
+uint = "0.10.0"
+
+[build-dependencies]
+embed-resource = "3.0.4"
